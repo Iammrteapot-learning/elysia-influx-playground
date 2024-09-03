@@ -6,9 +6,14 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/cors": "^1.1.0",
+    "@elysiajs/swagger": "^1.1.1",
+    "dotenv": "^16.4.5",
     "elysia": "latest"
   },
   "devDependencies": {
+    "@influxdata/influxdb-client": "^1.35.0",
+    "@influxdata/influxdb-client-apis": "^1.35.0",
     "bun-types": "latest"
   },
   "module": "src/index.js"
